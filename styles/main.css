@@ -31,8 +31,13 @@ nav a{
     color: #000;
 }
 nav a:hover{
-    color: aliceblue;
+    color: #fff;
     background-color: #000;
     transition-duration: 400ms;
     transition-timing-function: ease-in-out;
+}
+
+nav a:active{
+    background-color: #000;
+    color: #fff;
 }
