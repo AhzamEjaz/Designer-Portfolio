@@ -1,79 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
-html{
-    font-size: 62.27%;
-    height: 100vh;
-
-}
-
-header{
-    position: absolute;
-    left: 50vw;
-    width: 50vw;
-    text-align: center;
-    top: 50vh;
-    transform: translate(-50%,-50%);
-}
-.name{
-    font-size:6rem;
-    width: 100vw;
-    transform: translateX(-25%);
-    color: #343d52;
-   font-family: 'Playfair Display SC', serif;
-font-family: 'Ubuntu', sans-serif;
-}
-nav a{
-    position: relative;
-    font-size: 2.5rem;
+*{
     text-decoration: none;
-    padding: 1.2rem;
-    display: block;
-    margin: 6%;
-    font-family: 'Playfair Display SC', serif;
-    font-family: 'Ubuntu', sans-serif;
-    color: #343d52;
+    font-family: quicksand;
 }
-nav a:hover{
-    color: #fff;
-    background-color: #5d6475;
-    transition-duration: 400ms;
-    transition-timing-function: ease-in-out;
+html{
+    font-size: 67.27%;
 }
 
-nav a:active{
-    background-color: #000;
-    color: #fff;
-}
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width:300px){
     html{
-    font-size: 50%;
+        font-size:3rem;
+    }
 }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width:768px){
     html{
-    font-size: 100%;
+        font-size: 2.4rem;
+    }
 }
 
-}
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    html{
-    font-size: 50%;
-}
 
-}
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    html{
-    font-size: 62.27%;
-}
 
-}
+
