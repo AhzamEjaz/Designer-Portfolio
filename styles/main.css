@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 *{
     text-decoration: none;
-    font-family: quicksand;
+    font-family: 'Quicksand', sans-serif;
 }
 html{
     font-size: 67.27%;
