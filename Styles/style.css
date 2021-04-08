@@ -29,6 +29,13 @@
 html{
     scroll-behavior: smooth;
 }
+.service a,
+.about-me__body a{
+    text-decoration: none;
+    color : var(--clr-accent);
+    font-weight: var(--fw-bold);
+}
+
 @media (min-width: 800px){
     :root{
         --fs-hl: 4.5rem;
